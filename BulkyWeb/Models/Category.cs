@@ -14,5 +14,9 @@ namespace BulkyWeb.Models
         [DisplayName("Display Order")]
         [Range(1,200)]
         public int DisplayOrder { get; set; }
+        public int CategoryId { get; set; }
+        public Category() { }
+        
+        public string Discription {  get; set; }
     }
 }
